@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/mail_addr_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_addr_hint"
+        android:inputType="text"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/textsize_16" />
+    
+    <EditText
+        android:id="@+id/mail_title_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_title_hint"
+        android:inputType="text"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/textsize_16" />
+
+    <EditText
+        android:id="@+id/mail_content_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_content_hint"
+        android:inputType="text"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/textsize_16" />
+
+    <Button
+        android:id="@+id/mail_send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_send_btn"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/textsize_16" />
+    
+    <Button
+        android:id="@+id/mail_app_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_app_btn"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/textsize_16" />
+
+</LinearLayout>

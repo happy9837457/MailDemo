@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MailDemo</string>
+    <string name="mail_addr_hint">请输入发送人邮件地址</string>
+    <string name="mail_title_hint">请输入邮件标题</string>
+    <string name="mail_content_hint">请输入邮件内容</string>
+    <string name="mail_send_btn">发送邮件</string>
+    <string name="mail_app_btn">打开邮件应用</string>
+    <string name="mail_empty">不能为空</string>
+    <string name="mail_sending">正在发送中,请稍后</string>
+
+</resources>
